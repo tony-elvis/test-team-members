@@ -111,7 +111,7 @@ class TeamClass {
             TeamClass.showMember(ActivesTeamMembersOrdered);
             return ActivesTeamMembers;
         }
-        console.log('No actives team members actives');
+        console.log('No team members actives found');
         return ActivesTeamMembers;
     }
     /**
