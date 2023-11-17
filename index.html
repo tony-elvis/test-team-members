@@ -27,7 +27,7 @@
   <script src="dist/index.js"></script>
   <script>
     const teamTableBody = document.getElementById('teamTableBody');
-    const teamMembers = team.showActivesTeamMembers();
+    const teamMembers = getFormatData();
 
     teamMembers.forEach(member => {
       const row = document.createElement('tr');
